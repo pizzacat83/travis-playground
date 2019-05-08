@@ -3,6 +3,7 @@ language: bash
 os:
   - "windows"
 install:
+  - python -V
   - choco upgrade chocolatey
   - cinst python
   - python -V
