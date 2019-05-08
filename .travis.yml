@@ -3,13 +3,13 @@ language: bash
 os:
   - "windows"
 install:
-  - python -V
+  - python3 -V
   - choco upgrade chocolatey
   - cinst python
   - source ~/.bashrc
 
-  - python -V
-  - pip install pipenv
+  - python3 -V
+  - pip3 install pipenv
 #  - pipenv install mecab-python-windows
 # command to run tests
 script:
