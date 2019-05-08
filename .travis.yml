@@ -4,7 +4,7 @@ os:
   - "windows"
 install:
   - cinst python
-  - pip install pipenv
+  - pip3 install pipenv
   - pipenv install mecab-python-windows
 # command to run tests
 script:
