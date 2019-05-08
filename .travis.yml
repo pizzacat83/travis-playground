@@ -1,10 +1,9 @@
-language: python
-python:
-  - "3.7"
+language: bash
 # command to install dependencies
 os:
   - "windows"
 install:
+  - cinst python
   - pip install pipenv
   - pipenv install mecab-python-windows
 # command to run tests
