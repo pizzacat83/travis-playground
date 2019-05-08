@@ -3,8 +3,8 @@ language: bash
 os:
   - "windows"
 install:
-  - cinst python
-  - pip3 install pipenv
+  - cinst python pip
+  - pip install pipenv
   - pipenv install mecab-python-windows
 # command to run tests
 script:
