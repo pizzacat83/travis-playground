@@ -10,7 +10,7 @@ before_install:
 install:
   - python -V
   - pip install pipenv
-#  - pipenv install mecab-python-windows
+  - pipenv install mecab-python-windows
 # command to run tests
 script:
   - echo Done!
