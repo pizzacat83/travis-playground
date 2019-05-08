@@ -3,7 +3,7 @@ language: bash
 os:
   - "windows"
 install:
-  - choco upgrade
+  - choco upgrade chocolatey
   - cinst python
   - python -V
   - pip install pipenv
