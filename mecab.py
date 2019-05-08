@@ -1,3 +1,3 @@
 import MeCab
-tagger = MeCab.Tagger("-Ochasen")
+tagger = MeCab.Tagger("")
 print(tagger.parse("すもももももももものうち"))
