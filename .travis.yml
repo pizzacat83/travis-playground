@@ -5,9 +5,8 @@ os:
 install:
   - python -V
   - choco upgrade chocolatey
-  - call refreshenv
   - cinst python
-  - call refreshenv
+  - source ~/.bashrc
 
   - python -V
   - pip install pipenv
