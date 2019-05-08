@@ -8,7 +8,7 @@ before_install:
     - choco install python
     - python -m pip install --upgrade pip
 install:
-  - python3 -V
+  - python -V
   - pip install pipenv
 #  - pipenv install mecab-python-windows
 # command to run tests
