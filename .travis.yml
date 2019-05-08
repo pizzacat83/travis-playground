@@ -13,4 +13,5 @@ install:
   - pipenv install mecab-python-windows
 # command to run tests
 script:
+  - python mecab.py
   - echo Done!
