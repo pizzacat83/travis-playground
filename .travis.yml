@@ -5,9 +5,10 @@ os:
 install:
   - python -V
   - choco upgrade chocolatey
-  - refreshenv
+  - call refreshenv
   - cinst python
-  - refreshenv
+  - call refreshenv
+
   - python -V
   - pip install pipenv
 #  - pipenv install mecab-python-windows
