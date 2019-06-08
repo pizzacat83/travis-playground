@@ -4,8 +4,7 @@ os:
   - "windows"
   
 env:
-  - PATH=/c/Program Files (x86)/MeCab/bin:/c/Python37:/c/Python37/Scripts:$PATH
-  - export MECABRC='/c/Program Files (x86)/MeCab/etc/mecabrc'
+  - PATH=/c/Program Files (x86)/MeCab/bin:/c/Python37:/c/Python37/Scripts:$PATH MECABRC='/c/Program Files (x86)/MeCab/etc/mecabrc'
 before_install:
     - chcp.com 65001
     - wget "https://drive.google.com/uc?export=download&id=1syeEVA_bTfNtUTEGH67xbqEPd8ZatpTX" -O mecab.zip
