@@ -5,6 +5,7 @@ os:
   
 env: PATH=/c/Python37:/c/Python37/Scripts:$PATH
 before_install:
+    - chcp.com 65001
     - wget "https://drive.google.com/uc?export=download&id=1syeEVA_bTfNtUTEGH67xbqEPd8ZatpTX" -O mecab.zip
     - unzip mecab.zip
     - mv MeCab 'C:\Program Files (x86)'
