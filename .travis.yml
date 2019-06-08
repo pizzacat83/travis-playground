@@ -8,7 +8,7 @@ before_install:
     - wget "https://drive.google.com/uc?export=download&id=1syeEVA_bTfNtUTEGH67xbqEPd8ZatpTX" -O mecab.zip
     - unzip mecab.zip
     - mv MeCab 'C:\Program Files (x86)'
-    - export PATH=$PATH;"C:\Program Files (x86)\MeCab\bin"
+    - export PATH="$PATH;C:\Program Files (x86)\MeCab\bin"
     - export MECABRC="C:\Program Files (x86)\MeCab\etc\mecabrc"
     - echo $PATH
     - echp $MECABRC
