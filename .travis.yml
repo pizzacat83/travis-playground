@@ -8,8 +8,8 @@ before_install:
     - wget "https://drive.google.com/uc?export=download&id=1syeEVA_bTfNtUTEGH67xbqEPd8ZatpTX" -O mecab.zip
     - unzip mecab.zip
     - mv MeCab 'C:\Program Files (x86)'
-    - export PATH=$PATH';C:\Program Files (x86)\MeCab\bin'
-    - export MECABRC='C:\Program Files (x86)\MeCab\etc\mecabrc'
+    - export PATH=$PATH':/c/Program Files (x86)/MeCab/bin'
+    - export MECABRC='/c/Program Files (x86)/MeCab/etc/mecabrc'
     - echo $PATH
     - echo $MECABRC
     - choco install python
