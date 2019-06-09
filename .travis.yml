@@ -4,7 +4,7 @@ os:
   - "windows"
   
 env:
-  - PATH="/c/Program Files (x86)/MeCab/bin:/c/Python37:/c/Python37/Scripts:$PATH" MECABRC="/c/Program Files (x86)/MeCab/etc/mecabrc" PYTHONIOENCODING=utf8
+  - PATH="/c/Program Files (x86)/MeCab/bin:/c/Python37:/c/Python37/Scripts:$PATH" MECABRC='C:\Program Files (x86)\MeCab\etc\mecabrc' PYTHONIOENCODING=utf8
 before_install:
     - wget "https://drive.google.com/uc?export=download&id=1syeEVA_bTfNtUTEGH67xbqEPd8ZatpTX" -O mecab.zip
     - unzip mecab.zip
